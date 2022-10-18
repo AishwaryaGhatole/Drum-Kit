@@ -43,7 +43,7 @@ function keyAnimation(currentKey) {
 
     setTimeout(function(){
         clickedButton.classList.remove("pressed");
-    }, 250);
+    }, 150);
 }
 
 
