@@ -85,3 +85,29 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+@media only screen and (max-width: 768px){
+  body{
+    text-align: center;
+  }
+
+  h1{
+    size: 2rem;
+  }
+
+  .set{
+    height: 70%;
+    width: 80%;
+  }
+
+  .drum{
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+  }
+
+  footer{
+    position: relative;
+    bottom: 2%;
+  }
+}
